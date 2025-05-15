@@ -74,9 +74,9 @@ fn toggle_connection(conn: &str) {
 
 fn status_output(conn: &str) {
     if is_active(conn) {
-        println!("{{\"text\": \"{}\", \"class\": \"active\"}}", conn);
+        println!("{{\"text\": \"🛡️  {}\", \"class\": \"active\"}}", conn);
     } else {
-        println!("{{\"text\": \"{}\", \"class\": \"inactive\"}}", conn);
+        println!("{{\"text\": \"🚫  {}\", \"class\": \"inactive\"}}", conn);
     }
 }
 
