@@ -1,6 +1,8 @@
 [package]
 name = "wg-toggle"
-version = "0.1.0"
+description = "Toggle Wireguard connection state"
+license = "MIT"
+version = "1.0.0"
 edition = "2024"
 
 [dependencies]
